@@ -14,3 +14,11 @@ export interface RouteParamMetadata {
   source: RouteParamSource;
   data?: string;
 }
+
+// Represents one registered route in our routing table
+
+export interface RouteDefinition {
+  httpMethod: HttpMethod;
+  path: string;
+  methodName: string
+}
