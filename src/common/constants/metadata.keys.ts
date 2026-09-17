@@ -4,7 +4,8 @@ export const METADATA_KEYS = {
   ROUTE_METHOD: 'orderpulse:route_method',
   ROUTE_PARAMS: 'orderpulse:route_params',
   INJECTABLE: 'orderpulse:injectable',
-  PARAM_INJECTIONS: 'orderpulse:param_injections'
+  PARAM_INJECTIONS: 'orderpulse:param_injections',
+  MODULE: 'orderpulse:module',
 } as const;
 
 export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
