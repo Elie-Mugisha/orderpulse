@@ -4,8 +4,8 @@
   "description": "Architectural exploration of NestJS runtime plumbing: reflection, reactive streams, and async context tracking.",
   "main": "./dist/main.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/main.js",
+    "build": "node api.js && tsc",
+    "start": "node api.js && node dist/main.js",
     "start:dev": "tsc --watch & node --watch dist/main.js",
     "test": "jest --runInBand"
   },
